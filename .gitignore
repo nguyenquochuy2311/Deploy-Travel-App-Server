@@ -1,0 +1,13 @@
+.vscode
+
+/node_modules
+
+.env
+
+/vendor
+
+/.idea
+
+.ide/
+
+/src/config/config.json
