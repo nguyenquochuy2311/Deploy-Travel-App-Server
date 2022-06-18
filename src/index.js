@@ -15,7 +15,7 @@ let app = express();
 let router = express.Router();
 
 var corsOptions = {
-    origin: "http://localhost:3000"
+    origin: "https://traveloger.herokuapp.com"
 };
 
 //config app
@@ -62,7 +62,7 @@ apiRouters(app);
 //     })
 // });
 
-let port = process.env.NODE_DOCKER_PORT || 3000;
+let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Server started: http://localhost:${port}`)
