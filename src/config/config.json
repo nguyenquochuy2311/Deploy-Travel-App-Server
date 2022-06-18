@@ -1,8 +1,8 @@
 {
     "development": {
-        "username": "freedb_travel_user",
-        "password": "b*6W&@eUucMWf?#",
-        "database": "freedb_travel_db",
+        "username": "freedb_travel_user23",
+        "password": "Yf$F2k?dhqk9&UX",
+        "database": "freedb_travel_db23",
         "host": "sql.freedb.tech",
         "port": 3306,
         "dialect": "mysql"
@@ -16,9 +16,9 @@
         "dialect": "mysql"
     },
     "production": {
-        "username": "freedb_travel_user",
-        "password": "b*6W&@eUucMWf?#",
-        "database": "freedb_travel_db",
+        "username": "freedb_travel_user23",
+        "password": "Yf$F2k?dhqk9&UX",
+        "database": "freedb_travel_db23",
         "host": "sql.freedb.tech",
         "port": 3306,
         "dialect": "mysql"
