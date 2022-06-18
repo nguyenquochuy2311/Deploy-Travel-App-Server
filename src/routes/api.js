@@ -1,7 +1,6 @@
 import authRouter from './authRouter.js';
 import usersRouter from './usersRouter.js';
 import permissionsRouter from './permissionsRouter.js';
-import uploadFileRouter from './uploadFileRouter.js';
 import addressRouter from './addressesRouter.js';
 import addressDetailRouter from './addressesDetailRouter.js';
 import countryRouter from './countryRouter.js';
@@ -21,8 +20,6 @@ let apiRouter = (app) => {
     app.use('/api/v1/users', usersRouter);
 
     app.use('/api/v1/permissions', permissionsRouter);
-
-    app.use('/api/v1/upload', uploadFileRouter);
 
     app.use('/api/v1/addresses', addressRouter);
 
